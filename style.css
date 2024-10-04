@@ -1,0 +1,18 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+/* colori */
+#255EE; blu 
+#F5F5F5; grigio
+#7289DA; blu-chiaro
+#23272A; nero
