@@ -7,12 +7,37 @@
 
 body{
     font-family: "Poppins", system-ui;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;  
 }
 
-/* colori */
+/* colori
 #255EE; blu 
 #F5F5F5; grigio
 #7289DA; blu-chiaro
-#23272A; nero
+#23272A; nero */
+
+.contenitore-blu{
+    border: 1px solid black;
+    height: 50px;
+    background-color: blue;
+}
+.centrato {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;      
+    border: 1px solid black;
+}
+#hero{
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 800px; 
+}
+.immagine-iniziale{
+    border: 1px solid black;
+} 
+
+.contenitori-allineati{
+    height: 50px;
+    border: 1px solid black;
+}
