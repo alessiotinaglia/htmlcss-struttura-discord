@@ -16,7 +16,7 @@ body{
 }
 
 /* colori
-#255EE; blu 
+#255EE9 blu 
 #F5F5F5; grigio
 #7289DA; blu-chiaro
 #23272A; nero */
@@ -24,19 +24,23 @@ body{
 /* inizio header */
 
 .contenitore-blu{
-    background-color: blue;
+    background-color: #255EE9;
     border: 1px solid black;
 }
-.centrato {
-    height: 100%;  
+.centrato { 
     margin: 0 auto;
     max-width: 1200px;  
-    border: 1px solid black;      
+    border: 1px solid black;  
+
 }
-#hero{
+/* inizio main */   
+
+.testo-iniziale{
     margin: 0 auto;
     max-width: 800px; 
     border: 1px solid black;
+    text-align: center;
+    width: ;
 }
 
 ul{
@@ -52,15 +56,33 @@ header ul li a{
     text-decoration: none;
 }
 
-.bottone{
+.bottone-piccolo{
     padding: 11px 16px;   
     border-radius: 50px; 
 }
 
+.p-white{
+    color: white;
+    font: 50px;
+}
 
-/* inizio main */   
+h1{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+    
+}
 
 /* utility flex */
+
+#hero{
+    background-image: url(./img/jumbo.png);
+    height: 663px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .d-flex{
     display: flex;    
