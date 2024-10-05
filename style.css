@@ -22,6 +22,7 @@ body{
 #23272A; nero */
 
 /* inizio header */
+
 .contenitore-blu{
     background-color: blue;
     border: 1px solid black;
@@ -37,6 +38,25 @@ body{
     max-width: 800px; 
     border: 1px solid black;
 }
+
+ul{
+    list-style: none;
+}
+.aling-items-center{
+    align-items: center;
+}
+
+header ul li a{
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.bottone{
+    padding: 11px 16px;   
+    border-radius: 50px; 
+}
+
 
 /* inizio main */   
 
@@ -61,6 +81,7 @@ body{
 
 .contenitori{      
     border: 1px solid black;
+    padding: 15px 0;
     
 }
 
@@ -78,5 +99,12 @@ body{
 
 .sfondo-nero{
     background-color: #23272A;
+}
+
+.color-white{
     color: white;
+}
+
+.footer-top{
+    border-top: 1px solid #F5F5F5;
 }
