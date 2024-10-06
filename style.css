@@ -20,6 +20,7 @@ body{
 #F5F5F5; grigio
 #7289DA; blu-chiaro
 #23272A; nero */
+/* #F6F6F6 */
 
 /* inizio header */
 
@@ -33,7 +34,7 @@ body{
     border: 1px solid black;  
 
 }
-/* inizio main */   
+/* inizio header */   
 
 .testo-iniziale{
     margin: 0 auto;
@@ -57,8 +58,9 @@ header ul li a{
 }
 
 .bottone-piccolo{
-    padding: 11px 16px;   
-    border-radius: 50px; 
+    padding: 11px 16px;
+    border-radius: 50px;
+    cursor: pointer; 
 }
 
 .p-white{
@@ -73,7 +75,15 @@ h1{
     
 }
 
+/* inizio main */
+
 /* utility flex */
+
+main button a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
 
 #hero{
     background-image: url(./img/jumbo.png);
@@ -103,8 +113,7 @@ h1{
 
 .contenitori{      
     border: 1px solid black;
-    padding: 15px 0;
-    
+    padding: 110px 0; 
 }
 
 .immagine{
@@ -113,9 +122,62 @@ h1{
 }
 
 .testo{
+    padding-top: 25px;
+    font-size: 30px;
     width: 40%;
     border: 1px solid black;
 }
+.paragrafo{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.bottone-grande{
+    /* display: flex; 
+    align-items: center; */
+    padding: 15px 2px;   
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.bottone-sfondo-nero{
+    background-color: #23272A;
+    padding: 15px 2px;   
+    border-radius: 40px;   
+    cursor: pointer; 
+}
+.bottone-sfondo-nero a{
+    color: white;
+}
+.scritta-bottone{
+    font-size: 16px;
+}
+
+.freccia-nera{
+    width: 24px;
+    padding: 5px;
+    /* height: auto; */
+}
+
+/* .onde-basse{
+    background-image: url(./img/wave.svg);
+    color: #F5F5F5;
+    display: flex;
+    align-self: flex-end;
+    background-repeat: repeat;
+} */
+
+.immagine img{
+    width: 100%;
+}
+
+.sfondo-grigio{
+    background-color: #F6F6F6;
+}
+.foto-tecnologia{
+    
+}
+
 
 /* inizio footer */
 
@@ -123,6 +185,17 @@ h1{
     background-color: #23272A;
 }
 
+.terza-inserzione{
+    color: #23272A;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.scrittura-piccola{
+    font-size: 20px;
+    padding-top: 20px;
+}
 .color-white{
     color: white;
 }
