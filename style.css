@@ -32,7 +32,9 @@ body{
     margin: 0 auto;
     max-width: 1200px;  
     border: 1px solid black;  
-
+}
+.spessore{
+    padding: 20px 15px;
 }
 /* inizio header */   
 
@@ -41,7 +43,6 @@ body{
     max-width: 800px; 
     border: 1px solid black;
     text-align: center;
-    width: ;
 }
 
 ul{
@@ -58,18 +59,22 @@ header ul li a{
 }
 
 .bottone-piccolo{
+    display: inline-block;
     padding: 11px 16px;
     border-radius: 50px;
     cursor: pointer; 
 }
-
+p{
+    line-height: 2;  
+}
 .p-white{
+    
     color: white;
     font: 50px;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 4em;
     color: white;
     padding-bottom: 20px;
     
@@ -113,7 +118,7 @@ main button a{
 
 .contenitori{      
     border: 1px solid black;
-    padding: 110px 0; 
+    padding: 110px 0;
 }
 
 .immagine{
@@ -175,7 +180,7 @@ main button a{
     background-color: #F6F6F6;
 }
 .foto-tecnologia{
-    
+    max-width: 1200px;
 }
 
 
